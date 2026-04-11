@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  compliance_app:
+    image: compliance:latest
+    container_name: compliance_calculator
+    ports:
+      - "8080:80"
+    restart: always
